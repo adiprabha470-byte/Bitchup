@@ -1,0 +1,5 @@
+node_modules/
+.env
+qa/*.png
+.DS_Store
+data/

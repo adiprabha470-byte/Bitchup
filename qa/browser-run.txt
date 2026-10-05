@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": [
+    "Landing 360px: no document overflow",
+    "Landing 390px: no document overflow",
+    "Landing 430px: no document overflow",
+    "Landing 768px: no document overflow",
+    "Landing 1024px: no document overflow",
+    "Landing 1440px: no document overflow",
+    "Lobby 360px: all 8 teams visible, no overflow",
+    "Lobby 390px: all 8 teams visible, no overflow",
+    "Lobby 430px: all 8 teams visible, no overflow",
+    "Lobby 768px: all 8 teams visible, no overflow",
+    "Lobby 1024px: all 8 teams visible, no overflow",
+    "Lobby 1440px: all 8 teams visible, no overflow",
+    "Board 360px: 40 spaces, viewport scroll, accessible mobile controls",
+    "Board 390px: 40 spaces, viewport scroll, accessible mobile controls",
+    "Board 430px: 40 spaces, viewport scroll, accessible mobile controls",
+    "Board 768px: 40 spaces, viewport scroll, accessible mobile controls",
+    "Board 1024px: 40 spaces, viewport scroll, accessible mobile controls",
+    "Board 1440px: 40 spaces, viewport scroll, accessible mobile controls",
+    "Seeded server fixtures: upgrade/sell, mortgage/redeem, cash trade accepted in second browser, card property choice",
+    "Two browser multiplayer: teams, 8 rolls, purchases, movement, portfolio, trading, escaped chat, reload reconnect",
+    "Browser JS and console errors: 0"
+  ],
+  "errors": []
+}

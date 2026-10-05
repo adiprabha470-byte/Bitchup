@@ -1,0 +1,20 @@
+{
+  "name": "bitchup",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/*.test.js",
+    "test:browser": "node test/browser.cjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

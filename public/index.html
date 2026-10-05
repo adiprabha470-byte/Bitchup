@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#100c19" />
+    <title>BITCHUP · Own the night</title>
+    <link rel="icon" href="/assets/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/css/game.css" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="/">BITCH<span>UP</span><i>✦</i></a
+      ><span class="edition">THE AFTER HOURS EDITION</span>
+      <div class="top-actions">
+        <span id="connection" class="connection">Connecting</span
+        ><button id="sound" class="icon-button" aria-label="Enable sound">
+          ♫</button
+        ><button id="settings" class="icon-button" aria-label="Open settings">
+          ⚙
+        </button>
+      </div>
+    </header>
+    <main id="app"></main>
+    <div id="modal-root"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "productionDependenciesOnly": true,
+  "health": 200,
+  "landing": 200,
+  "websocket": true,
+  "roomCreated": true
+}
